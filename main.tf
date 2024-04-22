@@ -9,5 +9,6 @@ resource "aws_instance" "linux-1" {
     instance_type = "t2.micro"  
     tags = {
       Name = "ubuntu_linux"
+      Env  = "production"
     }
 }
