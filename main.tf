@@ -10,5 +10,6 @@ resource "aws_instance" "linux-1" {
     tags = {
       Name = "ubuntu_linux"
       Env  = "production"
+      os   = "ubuntu_linux"
     }
 }
